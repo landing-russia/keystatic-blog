@@ -1,0 +1,17 @@
+{
+  "name": "Simon",
+  "avatar": "/images/avatars/simon/avatar.jpg",
+  "showcase": [
+    {
+      "discriminant": "youtubeVideoId",
+      "value": "Ml-B-W91gtw"
+    },
+    {
+      "discriminant": "link",
+      "value": {
+        "label": "lenta.ru",
+        "url": "https://lenta.ru/"
+      }
+    }
+  ]
+}

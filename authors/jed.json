@@ -1,0 +1,17 @@
+{
+  "name": "Jed",
+  "avatar": "/images/avatars/jed/avatar.png",
+  "showcase": [
+    {
+      "discriminant": "youtubeVideoId",
+      "value": "-9dLy6l08B0"
+    },
+    {
+      "discriminant": "link",
+      "value": {
+        "label": "Google",
+        "url": "https://google.com"
+      }
+    }
+  ]
+}
