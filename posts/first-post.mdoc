@@ -7,3 +7,11 @@ authors:
 First!
 
 You can edit this page in the [Admin UI](/keystatic/collection/posts/item/first-post), or directly in your IDE at `./posts/first-post.mdoc`.
+
+```javascript
+import { createReader } from '@keystatic/core/reader';
+import keystaticConfig from '../keystatic.config';
+
+export const reader = createReader(process.cwd(), keystaticConfig);
+
+```
