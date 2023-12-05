@@ -18,7 +18,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
   )
 
   return (
-    <div>
+    <div className="prose mx-auto">
       <h1>{post.title}</h1>
       {/* <pre>{JSON.stringify(authors, null, 2)}</pre> */}
       <div>

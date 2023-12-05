@@ -1,12 +1,12 @@
 import Link from 'next/link';
 import { reader } from './reader';
-import './styles.css';
+// import './styles.css';
 
 export default async function Homepage() {
   const posts = await reader.collections.posts.all();
 
   return (
-    <div>
+    <div className="prose mx-auto">
       <h1>Keystatic ⚡️</h1>
       <p>This homepage shows how to load a collection from the reader API.</p>
       <p>

@@ -8,7 +8,7 @@ export default config({
     posts: collection({
       label: "Posts",
       slugField: "title",
-      path: "posts/*",
+      path: "content/posts/*",
       format: { contentField: "content" },
       schema: {
         title: fields.slug({ name: { label: "Title" } }),
@@ -41,7 +41,7 @@ export default config({
     authors: collection({
       label: "Authors",
       slugField: "name",
-      path: "authors/*",
+      path: "content/authors/*",
       format: { data: "json" },
       schema: {
         name: fields.slug({ name: { label: "Name" } }),
